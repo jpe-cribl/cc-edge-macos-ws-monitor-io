@@ -1,0 +1,18 @@
+output: default
+streamtags: []
+groups: {}
+asyncFuncTimeout: 1000
+description: >-
+  WindowServer monitor JSONL samples. Stamps index mac_perf and sourcetype
+  ws-monitor. Event fields pass through unchanged; the README lists the
+  numeric JSON fields.
+functions:
+  - id: eval
+    filter: "true"
+    disabled: false
+    conf:
+      add:
+        - name: index
+          value: "'mac_perf'"
+        - name: sourcetype
+          value: "'ws-monitor'"

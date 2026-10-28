@@ -1,0 +1,56 @@
+[
+  {
+    "ts": "2026-10-28T12:24:27Z",
+    "severity": "normal",
+    "gap_s": 5,
+    "io_probe_pending_s": 0,
+    "memory_free_pct": 75,
+    "swap_used_mb": 2632.56,
+    "wired_pages": 705923,
+    "windowserver_footprint": "3743 MB",
+    "top_processes": [
+      "11888 105.6 128464 /System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/suggestd",
+      "18843  86.9 775200 /nix/store/km7w78s9z46ip3zygpc1gr4imnr6flr5-cribl-edge-4.20.1-590ec085/opt/cribl/bin/cribl",
+      "10451  53.1 311696 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+      "11971  42.6 733632 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
+      "16788  40.3 577296 /System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/com.apple.appkit.xpc.openAndSavePanelService.xpc/Contents/MacOS/com.apple.appkit.xpc.openAndSavePanelService"
+    ],
+    "data_volume_free_gb": 178
+  },
+  {
+    "ts": "2026-10-28T12:24:44Z",
+    "severity": "normal",
+    "gap_s": 5,
+    "io_probe_pending_s": 0,
+    "memory_free_pct": 76,
+    "swap_used_mb": 2632.56,
+    "wired_pages": 724952,
+    "windowserver_footprint": "3737 MB",
+    "top_processes": [
+      "11888  90.7 139504 /System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/suggestd",
+      "  535  44.5  10656 /usr/libexec/ApplicationFirewall/socketfilterfw",
+      "10451  35.7 311696 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+      "73169  13.0 960096 /opt/homebrew/bin/claude",
+      "12061  10.4  60336 /System/Library/Services/AppleSpell.service/Contents/MacOS/AppleSpell"
+    ],
+    "data_volume_free_gb": 178
+  },
+  {
+    "ts": "2026-10-28T12:25:00Z",
+    "severity": "normal",
+    "gap_s": 5,
+    "io_probe_pending_s": 0,
+    "memory_free_pct": 75,
+    "swap_used_mb": 2576.56,
+    "wired_pages": 739754,
+    "windowserver_footprint": "3776 MB",
+    "top_processes": [
+      "  535  43.9  10656 /usr/libexec/ApplicationFirewall/socketfilterfw",
+      "10451  40.8 316112 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+      "40689  14.8 983648 /Users/example/Library/Application Support/example-cli/bin/example-tool",
+      "11923  14.4 601952 /Applications/Brave Browser.app/Contents/MacOS/Brave Browser",
+      "11909  11.2 342752 /Applications/Ghostty.app/Contents/MacOS/ghostty"
+    ],
+    "data_volume_free_gb": 178
+  }
+]

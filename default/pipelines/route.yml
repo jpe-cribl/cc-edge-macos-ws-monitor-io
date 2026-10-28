@@ -1,0 +1,37 @@
+id: default
+groups: {}
+comments: []
+routes:
+  - id: ws_monitor
+    name: WindowServer Monitor Samples
+    final: true
+    disabled: false
+    pipeline: macos_ws_monitor
+    description: "WindowServer monitor JSONL samples"
+    enableOutputExpression: false
+    targetContext: group
+    filter: "__inputId=='file:in_ws_monitor'"
+    clones: []
+    output: __group
+  - id: ws_monitor_captures
+    name: WindowServer Monitor Captures
+    final: true
+    disabled: false
+    pipeline: macos_ws_monitor_captures
+    description: "WindowServer monitor spindump capture summaries"
+    enableOutputExpression: false
+    targetContext: group
+    filter: "__inputId=='file:in_ws_monitor_captures'"
+    clones: []
+    output: __group
+  - id: ws_monitor_errors
+    name: WindowServer Monitor Errors
+    final: true
+    disabled: false
+    pipeline: macos_ws_monitor_errors
+    description: "WindowServer monitor error log lines"
+    enableOutputExpression: false
+    targetContext: group
+    filter: "__inputId=='file:in_ws_monitor_errors'"
+    clones: []
+    output: __group

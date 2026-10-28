@@ -1,0 +1,6 @@
+[
+  {
+    "_raw": "Example spindump summary (synthetic fixture)\nProcess:         WindowServer [0000]\nPath:            /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer\nEvent:           synthetic example capture\n",
+    "source": "/var/log/ws-monitor/captures/example.summary.txt"
+  }
+]

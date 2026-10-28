@@ -1,0 +1,17 @@
+output: default
+streamtags: []
+groups: {}
+asyncFuncTimeout: 1000
+description: >-
+  WindowServer monitor spindump summaries, one event per capture file.
+  Stamps index mac_perf and sourcetype ws-monitor:spindump.
+functions:
+  - id: eval
+    filter: "true"
+    disabled: false
+    conf:
+      add:
+        - name: index
+          value: "'mac_perf'"
+        - name: sourcetype
+          value: "'ws-monitor:spindump'"
