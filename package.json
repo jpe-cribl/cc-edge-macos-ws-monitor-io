@@ -2,7 +2,7 @@
   "name": "cc-edge-macos-ws-monitor-io",
   "version": "0.1.0",
   "minLogStreamVersion": "4.16.0",
-  "author": "Jacob <20714140+JacobPEvans-personal@users.noreply.github.com>",
+  "author": "jpe-cribl",
   "description": "Cribl Edge pack for macOS WindowServer monitor samples, spindump capture summaries, and monitor error lines.",
   "displayName": "macOS WindowServer Monitor for Edge",
   "tags": {
