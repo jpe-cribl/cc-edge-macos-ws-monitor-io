@@ -1,0 +1,16 @@
+# Each spindump summary file is one event, with a 1 MiB safety ceiling.
+WS Monitor Captures:
+  lib: custom
+  description: One spindump capture per event up to the maximum event size
+  rules:
+    - condition: "true"
+      type: regex
+      timestampAnchorRegex: /^/
+      timestamp:
+        type: current
+      timestampTimezone: local
+      maxEventBytes: 1048576
+      disabled: false
+      eventBreakerRegex: /$^/
+      name: spindump
+  tags: macos,ws-monitor
