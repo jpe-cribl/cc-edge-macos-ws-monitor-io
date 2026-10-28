@@ -1,0 +1,6 @@
+[
+  {
+    "index": "mac_perf",
+    "sourcetype": "ws-monitor:err"
+  }
+]
