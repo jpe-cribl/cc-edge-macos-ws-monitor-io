@@ -1,6 +1,6 @@
-# dryvist organization-wide markdownlint canonical.
+# Organization-wide markdownlint canonical.
 #
-# Single source of truth for markdown linting across every dryvist repo.
+# Single source of truth for markdown linting across every repo in the organization.
 # Consumer repos copy this file at scaffold time. (Renovate sync mechanism TBD;
 # currently manual copy. Track via Renovate's custom manager when wired.)
 #
